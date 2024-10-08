@@ -31,6 +31,10 @@
   font-size: 19px;
   color: #98abbe;
   letter-spacing: 2.03px;
+
+  @media (max-width: 800px) {
+    font-size: 16px;
+  }
 }
 
 .title {
@@ -43,18 +47,30 @@
   white-space: pre-wrap;
   text-overflow: ellipsis;
   max-lines: 2;
+
+  @media (max-width: 800px) {
+    font-size: 30px;
+  }
 }
 
 .smallerDate {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 1.92px;
+
+  @media (max-width: 800px) {
+    font-size: 15px;
+  }
 }
 
 .smallerTitle {
   font-size: 25px;
   line-height: 30px;
   width: 100%;
+
+  @media (max-width: 800px) {
+    font-size: 20px;
+  }
 }
 
 .status {

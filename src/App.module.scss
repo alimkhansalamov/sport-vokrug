@@ -37,6 +37,10 @@
 
 .top {
   height: 28.75%;
+
+  @media (max-width: 800px) {
+    padding: 20px;
+  }
 }
 
 .middle {
