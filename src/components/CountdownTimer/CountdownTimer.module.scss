@@ -1,0 +1,57 @@
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 161px;
+  width: 762px;
+}
+
+.circle {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.circle::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(
+                  #1E3465 var(--progress),
+                  var(--color) var(--progress)
+  );
+  transition: background 0.5s linear;
+}
+
+
+.innerCircle {
+  position: absolute;
+  inset: 12px;
+  border-radius: 50%;
+  background-color: #1E3465;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.timeLeft {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.timeTitle {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+
+.extraDays {
+  font-size: 20px;
+  color: #FF5733;
+  margin: 0 10px;
+}

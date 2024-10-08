@@ -1,0 +1,59 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #12203E;
+  color: white;
+}
+
+.centeredApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #12203E;
+}
+
+.top, .middle, .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.top {
+  height: 28.75%;
+}
+
+.middle {
+  height: 42.5%;
+  background-color: #1E3465;
+}
+
+.bottom {
+  height: 28.75%;
+}
+
+.currentEvent, .nextEvent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.emptySection {
+  height: 100%;
+}
+
+.time {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 19px;
+  font-weight: 400;
+}
