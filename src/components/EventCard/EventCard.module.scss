@@ -3,12 +3,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: #1E3465;
+  background-color: #1e3465;
   padding: 20px;
   border-radius: 10px;
   height: 100%;
   min-width: 65%;
   max-width: 65%;
+
+  @media (max-width: 800px) {
+    min-width: 90%;
+    max-width: 90%;
+  }
 }
 
 .noBackground {
@@ -24,7 +29,7 @@
 
 .date {
   font-size: 19px;
-  color: #98ABBE;
+  color: #98abbe;
   letter-spacing: 2.03px;
 }
 
@@ -57,8 +62,8 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  background-color: #3D8D44;
-  border: 1px solid #2C7C33;
+  background-color: #3d8d44;
+  border: 1px solid #2c7c33;
   border-radius: 15px;
   width: 451px;
   height: 107px;
